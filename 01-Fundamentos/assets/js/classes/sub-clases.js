@@ -56,7 +56,7 @@ class Heroe extends Persona {
 
 const spiderman = new Heroe(
   "Peter Parker",
-  "Spider",
+  "Spiderman",
   "Soy tu amigable amigo Spiderman"
 );
 // const spiderman = new Heroe();
