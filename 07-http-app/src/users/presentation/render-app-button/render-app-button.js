@@ -1,0 +1,19 @@
+import { showModal } from "../render-modal/render-modal";
+import "./render-app-button.css";
+
+/**
+ *
+ * @param {HTMLDivElement} element
+ */
+export const renderAppButton = (element) => {
+  const fabButton = document.createElement("button");
+  fabButton.innerText = "+";
+  fabButton.classList.add("fab-button");
+
+  element.append(fabButton);
+
+  //TODO:
+  fabButton.addEventListener("click", () => {
+    showModal();
+  });
+};
