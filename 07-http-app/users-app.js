@@ -2,7 +2,7 @@ import { renderAppButton } from "./src/users/presentation/render-app-button/rend
 import { renderButtons } from "./src/users/presentation/render-buttons/render-buttons";
 import { renderModal } from "./src/users/presentation/render-modal/render-modal";
 import { renderTable } from "./src/users/presentation/render-table/render-table";
-import userStore from "./src/users/store/user-store";
+import userStore from "./src/users/store/users-store";
 import { saveUser } from "./src/users/use-cases/save-user";
 
 /**
